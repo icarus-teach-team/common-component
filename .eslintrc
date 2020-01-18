@@ -1,0 +1,30 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/flowtype",
+        "prettier/react",
+        "prettier/standard"
+    ],
+    "plugins": [
+        "react",
+        "flowtype",
+        "prettier",
+        "standard"
+    ],
+    "rules": {
+        "class-method-use-this": 0,
+        "global-require": 0,
+        "import/name": "off",
+        "import/no-unresolved": "off",
+        "import/no-named-as-default": "off",
+        "no-use-before-define": 0,
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"]}],
+        "semi": ["error", "always"]
+    }
+}

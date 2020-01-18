@@ -1,0 +1,1 @@
+cpx '{index.js, src/**/*}' ../stoy-book/node_modules/common-component --watch -v
